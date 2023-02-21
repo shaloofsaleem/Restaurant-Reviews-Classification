@@ -66,67 +66,9 @@ Stemming: Tokens are stemmed using the Porter stemming algorithm to reduce infle
 Modeling
 
 ```
-The machine learning model used for this project is a logistic regression model. The model is trained on the preprocessed data using scikit-learn. The model is evaluated using k-fold cross-validation and the F1 score is used as the evaluation metric.
-```
-
-Apply migrations and create your database
-```
-python manage.py migrate
-```
-Create a user with manage.py
-```
-python manage.py createsuperuser
-```
-
-Now you can run the project with this command
-
-```
-python manage.py runserver
+The machine learning model used for this project is a Naive Bayes model and XGBoost Classifier. The model is trained on the preprocessed data using scikit-learn. The model is evaluated using accuracy_score, confusion_matrix is used as the evaluation metric.
 ```
 
 <br>
-
-## Screenshots
-
-
-
-<table width="100%"> 
-<tr>
-
-<td width="50%">
-<p align="center">
-Light Mode
-</p>
-<img src="https://github.com/Jauharmuhammed/README-Template/blob/main/assets/light%20Mode.png">  
-</td>
-  <td width="50%">      
-<p align="center">
-Dark Mode
-</p>
-<img src="https://github.com/Jauharmuhammed/README-Template/blob/main/assets/dark-mode.png">
-</td> 
-</table>
-<br/>
-
-## Contact
-
-<div align='left'>
-
-<a href="https://linkedin.com/in/jauharmuhammed" target="_blank">
-<img src="https://img.shields.io/badge/linkedin-%2300acee.svg?color=405DE6&style=for-the-badge&logo=linkedin&logoColor=white" alt=linkedin style="margin-bottom: 5px;"/>
-</a>
-	
-<a href="https://twitter.com/jauharmuhammed_" target="_blank">
-<img src="https://img.shields.io/badge/twitter-%2300acee.svg?color=1DA1F2&style=for-the-badge&logo=twitter&logoColor=white" alt=twitter style="margin-bottom: 5px;"/>
-</a>
-	
-<a href="mailto:jauharmuhammedk@gmail.com" target="_blank">
-<img src="https://img.shields.io/badge/gmail-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" t=mail style="margin-bottom: 5px;" />
-</a>
-	
-		
-<a href="https://codepen.io/jauharmuhammed" target="_blank">
-<img src="https://img.shields.io/badge/codepen-%23000000.svg?style=for-the-badge&logo=codepen&logoColor=white" t=mail style="margin-bottom: 5px;" />
-</a>
 
 </div>
